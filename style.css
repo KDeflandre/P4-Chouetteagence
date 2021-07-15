@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #2F302F;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -325,8 +325,9 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
+
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #2F302F!important;
 }
 
 .container {
@@ -775,11 +776,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#2F302F!important;
+}
+
+.slider-background {
+    background-color:#F3976C ;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #2F302F;
     color: #FFFFFF!important;
 }
 
@@ -933,6 +940,7 @@ h4 {
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+        color:#F3976C;
     }
     .dropdown .dropdown a .caret {
         float: none;
