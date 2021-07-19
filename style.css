@@ -815,7 +815,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1049,10 +1049,21 @@ blockquote p {
 }
 
 .banner-contact {
-    width:50%;
+    width:60%;
     margin:auto;
     background-color: #F2966C ;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
+
+@media (max-width: 500px) {
+    .banner-contact {
+        width:100%; 
+}
+}
+
+.no-img {
+    font-size : 1.6em;
+}
+
+
