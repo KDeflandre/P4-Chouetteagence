@@ -690,6 +690,7 @@ p {
     margin: auto auto auto auto;
 }
 
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -724,10 +725,11 @@ h4 {
 .white {
     color: #2F302F!important;
     font-size: 15px;
+    padding-bottom: 20px;
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin:0 auto;
 }
 
 .portfolio-row {
@@ -740,8 +742,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: #F1956C;
+    padding: 30px 30px 30px 30px;
 }
 
 .bold-link {
@@ -782,11 +784,11 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    font-size: 1.2em;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1005,7 +1007,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1066,4 +1068,9 @@ blockquote p {
     font-size : 1.6em;
 }
 
+.footer-contact {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
 
