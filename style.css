@@ -16,6 +16,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color:blue;
 }
 
 #page-loading-blocs-notifaction {
@@ -1073,7 +1074,9 @@ blockquote p {
     font-size: 1.2em;
     text-align: center;
     font-weight: bold;
-    
 }
 
+ul li a:hover {
+    opacity: 60%;
+}
 
