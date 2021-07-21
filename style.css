@@ -1072,4 +1072,6 @@ blockquote p {
     font-weight: bold;
 }
 
-
+.bg-dots-bg {
+    background-image: url("img/la-chouette-agence-banniere.jpg");
+}
