@@ -40,6 +40,10 @@ a:hover {
     position: relative;
 }
 
+header.bloc {
+    padding:0;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -770,22 +774,16 @@ h4 {
 }
 
 .tc-white {
-    color:#2F302F!important;
-}
-
-.slider-background {
-    background-color:#F3976C ;
-    padding-top: 20px;
-    padding-bottom:20px;
+    color:#FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #2F302F;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #EBBD4C!important;
+    background: #EBBA4D!important;
     color: #FFFFFF!important;
 }
 
@@ -869,11 +867,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
-         padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    } */
-    
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -882,8 +876,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1056,7 +1048,6 @@ blockquote p {
 .banner-contact {
     width:60%;
     margin:auto;
-    background-color: #F2966C ;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1065,6 +1056,10 @@ blockquote p {
     .banner-contact {
         width:100%; 
 }
+}
+
+.l-bloc .navbar a:hover {
+    color: #F2966C!important;
 }
 
 .no-img {
@@ -1077,7 +1072,4 @@ blockquote p {
     font-weight: bold;
 }
 
-ul li a:hover {
-    opacity: 60%;
-}
 
