@@ -676,7 +676,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 730px;
+    /* max-width: 730px; */
     margin: auto auto auto auto;
     font-size:1.3em;
 }
