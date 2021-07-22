@@ -754,6 +754,7 @@ h4 {
 .black-background {
     background-color: #F1956C;
     padding: 30px 30px 30px 30px;
+    max-width: 600px;
 }
 
 .bold-link {
@@ -1073,5 +1074,19 @@ blockquote p {
 }
 
 .bg-dots-bg {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/image-de-presentation.jpg");
+    background-position: 50% 78%;
+    position:relative;
+}
+
+.bg-dots-bg:before {
+    content:"";
+    position: absolute;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    opacity: 60%;
+
 }
